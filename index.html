@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Portfolio Website</title>
+  <style type="text/css">
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
+    #vanta-canvas {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div id="vanta-canvas"></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.rings.min.js"></script>
+  <script src="sections/main.js" defer></script>
+  <script src="sections/about.js" defer></script>
+  <script src="sections/skills.js" defer></script>
+  <script src="sections/project.js" defer></script>
+  <script src="sections/testimonial.js" defer></script>
+  <script src="sections/contact.js" defer></script>
+
+
+  <script type="text/javascript">
+    VANTA.RINGS({
+      el: "#vanta-canvas",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.0,
+      scaleMobile: 1.00,
+      backgroundColor: 0x000000,
+      color: 0x4444ff
+    });
+  </script>
+  <script src="main.js"></script>
+</body>
+</html>
