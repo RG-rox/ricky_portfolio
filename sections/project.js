@@ -65,6 +65,8 @@ projectStyle.innerHTML = `
     color: #f8d6ff;
     text-shadow: 0 0 25px #ff8ce7;
     animation: glowText 2s ease-in-out infinite alternate;
+    font-family: "Julius Sans One", sans-serif;
+    font-style: normal;
   }
 
   .bento-grid {

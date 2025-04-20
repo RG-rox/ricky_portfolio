@@ -58,6 +58,8 @@ scrollStyle.innerHTML = `
     color: #98ff98;
     margin-bottom: 24px;
     text-shadow: 0 0 20px rgba(0, 255, 128, 0.5);
+    font-family: "Julius Sans One", sans-serif;
+    font-style: normal;
   }
 
   .about-text p {

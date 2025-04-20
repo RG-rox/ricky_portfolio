@@ -65,6 +65,8 @@ testimonialStyle.innerHTML = `
     margin-bottom: 80px;
     text-shadow: 0 0 25px rgba(255, 223, 50, 0.5);
     animation: glowTextGold 3s ease-in-out infinite alternate;
+    font-family: "Julius Sans One", sans-serif;
+    font-style: normal;
   }
 
   .testimonials-grid {

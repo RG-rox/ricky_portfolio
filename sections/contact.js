@@ -46,6 +46,8 @@ contactStyle.innerHTML = `
     color: #a0fdfd;
     text-shadow: 0 0 25px #80faff;
     animation: glowTextTurq 2s ease-in-out infinite alternate;
+    font-family: "Julius Sans One", sans-serif;
+    font-style: normal;
   }
 
   .contact-grid {
