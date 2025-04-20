@@ -4,7 +4,7 @@ aboutSection.innerHTML = `
   <div class="about-container">
     <div class="about-text">
       <h2>About Me</h2>
-      <p>Hello! I'm Ridhhin, a passionate CS+Design student at IIITD. I thrive at the intersection of logic and creativity. My interests lie in UI/UX, front-end development, and motion design. I enjoy building interfaces that feel intuitive and delightful. Whether it's crafting pixel-perfect layouts or exploring new tech stacks, I'm always learning and iterating. Outside of tech and design, I'm also an avid sports enthusiast — you'll often find me playing or following cricket, tennis, and football.</p>
+      <p>Hello! I'm Ridhhin, a passionate CS+Design student at IIITD. I thrive at the intersection of logic and creativity. My interests lie in creative and inventive problem solving, blockchain and mathematics. I enjoy studying finance related books.I'm always learning and iterating.Outside of tech and design, I'm also an avid sports enthusiast — you'll often find me playing or following cricket, tennis, and football.</p>
     </div>
     <div class="about-image">
       <img src="assets/image.png" alt="About Visual" />

@@ -7,17 +7,17 @@ testimonialsSection.innerHTML = `
       <div class="testimonial-card">
         <div class="testimonial-inner">
           <div class="testimonial-front">
-            <p>"Working with Ridhhin was an absolute pleasure. He combines creativity and technical precision like no one else!"</p>
+            <p>"Working with Ridhhin was an absolute pleasure"</p>
           </div>
           <div class="testimonial-back">
-            <span>— Vansh Jain, UX Researcher</span>
+            <span>— Vansh Jain, Researcher</span>
           </div>
         </div>
       </div>
       <div class="testimonial-card">
         <div class="testimonial-inner">
           <div class="testimonial-front">
-            <p>"His attention to design detail and code quality is top-notch. Truly one of the best collaborators I’ve worked with."</p>
+            <p>"Great problem solver.Had lots of fun working with him."</p>
           </div>
           <div class="testimonial-back">
             <span>— Aishwarya Singh Panwar, Product Manager</span>
@@ -27,7 +27,7 @@ testimonialsSection.innerHTML = `
       <div class="testimonial-card">
         <div class="testimonial-inner">
           <div class="testimonial-front">
-            <p>"Ridhhin’s ability to bring ideas to life visually is inspiring. He delivers more than expected every time."</p>
+            <p>"Good listener and generated ideas which can be brought into life practically!"</p>
           </div>
           <div class="testimonial-back">
             <span>— Saksham Bansal, Creative Director</span>
