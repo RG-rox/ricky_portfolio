@@ -116,7 +116,7 @@ document.body.appendChild(headphoneImg);
 
 const audio = document.createElement('audio');
 audio.id = 'customAudio';
-audio.src = '/rainy.mp3';
+audio.src = 'public/models/rainy.mp3';
 audio.loop = true;
 audio.volume = 1;
 document.body.appendChild(audio);
