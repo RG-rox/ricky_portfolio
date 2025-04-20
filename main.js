@@ -255,6 +255,9 @@ style.innerHTML = `
     top: -250px;
     position: absolute;
     white-space: nowrap;
+    font-family: "Julius Sans One", sans-serif;
+    font-style: normal;
+  
   }
   .info h2 {
     font-size: 1rem;
