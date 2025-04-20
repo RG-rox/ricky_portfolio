@@ -491,6 +491,86 @@ style.innerHTML = `
   .ai-status.active {
     opacity: 1;
   }
+  
+  @media (max-width: 768px) {
+  .content {
+    left: 20px;
+    top: 40%;
+    transform: translateY(-50%);
+    align-items: flex-start;
+  }
+
+  .info h1 {
+    font-size: 2.5rem;
+    top: -160px;
+    position: relative;
+    white-space: normal;
+  }
+
+  .info h2 {
+    font-size: 1rem;
+    top: -140px;
+    left: 0;
+    position: relative;
+    white-space: normal;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  nav a {
+    font-size: 1rem;
+  }
+
+  nav a:hover {
+    font-size: 1.5rem;
+    transform: translateX(10px);
+  }
+
+  .floating-headphone {
+    top: 15px;
+    right: 15px;
+    width: 60px;
+    height: 60px;
+  }
+
+  .ai-assistant {
+    left: 6%;
+    top: 90%;
+    transform: translate(-50%);
+  }
+
+  .ai-avatar {
+    width: 60px;
+    height: 60px;
+  }
+
+  .ai-status {
+    font-size: 0.7rem;
+    bottom: -25px;
+  }
+
+  .social-icons {
+    top: 85%;
+    right: 15px;
+    flex-direction: row;
+    gap: 15px;
+  }
+
+  .social-icons img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .sub-options {
+    left: 20px;
+    top: auto;
+    bottom: 100px;
+    flex-direction: column;
+  }
+}
 
   }
 `;

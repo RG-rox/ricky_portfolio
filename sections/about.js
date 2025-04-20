@@ -89,5 +89,33 @@ scrollStyle.innerHTML = `
     transform: scale(1.02);
     box-shadow: 0 12px 40px rgba(0, 255, 128, 0.4);
   }
+  @media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .about-text h2 {
+    font-size: 2.2rem;
+  }
+
+  .about-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .about-image {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
+  .about-image img {
+    height: auto;
+    max-height: 300px;
+  }
+}
+
 `;
 document.head.appendChild(scrollStyle);

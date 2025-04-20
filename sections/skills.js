@@ -113,5 +113,38 @@ skillsStyle.innerHTML = `
     0% { transform: translateX(0); }
     100% { transform: translateX(-50%); }
   }
+  
+  @media (max-width: 768px) {
+  .skills-container {
+    padding: 20px;
+  }
+
+  .skills-container h2 {
+    font-size: 2rem;
+    margin-bottom: 16px;
+  }
+
+  .skills-track {
+    gap: 20px;
+    animation-duration: 40s; /* slower scroll for smaller view */
+  }
+
+  .skill-card {
+    min-width: 120px;
+    height: 140px;
+    padding: 12px;
+  }
+
+  .skill-card img {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 8px;
+  }
+
+  .skill-card span {
+    font-size: 0.85rem;
+  }
+}
+
 `;
 document.head.appendChild(skillsStyle);

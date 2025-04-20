@@ -204,6 +204,42 @@ projectStyle.innerHTML = `
     .projects-title {
       font-size: 2.2rem;
     }
+    
+    @media (max-width: 768px) {
+  .projects-container {
+    padding: 20px;
+  }
+
+  .projects-title {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .bento-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .project-card {
+    padding: 16px;
+    height: auto;
+    min-height: 160px;
+    font-size: 0.95rem;
+  }
+
+  .project-card h3 {
+    font-size: 1.1rem;
+    margin-bottom: 6px;
+  }
+
+  .project-card p {
+    font-size: 0.85rem;
+    line-height: 1.5;
+  }
+}
+
   }
 `;
 document.head.appendChild(projectStyle);
